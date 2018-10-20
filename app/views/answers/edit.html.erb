@@ -1,0 +1,20 @@
+<div>
+  <h2>Update answer</h2>
+  <%= form_with model:[@question, @answer], local: true do |f| %>
+    <div class="form-group">
+      <div class="form-group">
+        <label>Name</label>
+        <%= f.text_field :name, class:"form-control" %>
+      </div>
+      <div class="form-group">
+        <label>Content</label>
+        <%= f.text_area :content, class:"form-control" %>
+      </div>
+      <div class="text-center">
+        <%= f.submit "Update", class: "btn btn-primary" %>
+      </div>
+    </div>
+  <% end %>
+  
+  
+</div>
