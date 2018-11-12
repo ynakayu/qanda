@@ -7,7 +7,7 @@
 * Ruby version
 2.5.1
 
-* Ruby version
+* Ruby on Rails version
 5.2.1
 
 * Database creation
