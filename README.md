@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+オンラインプログラミング講座「よくわかるRuby on Rails入門」の 「ミニQ＆Aサービス」の開発で使用したサンプルコードです。
+講座を受ける際の補助教材としてご利用いただけます。
 
-Things you may want to cover:
 
 * Ruby version
+2.5.1
 
-* System dependencies
-
-* Configuration
+* Ruby version
+5.2.1
 
 * Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$ rails db:migrate
